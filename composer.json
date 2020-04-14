@@ -1,8 +1,0 @@
-{
-    "require-dev": {
-        "brain/monkey": "2.*",
-        "phpunit/phpunit": "9",
-        "mockery/mockery": "dev-master",
-        "wp-cli/wp-cli-bundle": "*"
-    }
-}
