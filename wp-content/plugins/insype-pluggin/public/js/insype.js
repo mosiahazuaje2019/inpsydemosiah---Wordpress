@@ -1,5 +1,6 @@
-var userListBtn = document.getElementById("users-list-btn");
-var usersListContainer = document.getElementById("users-lists-container");
+window.onload=function(){
+  var userListBtn = document.getElementById("users-list-btn");
+  var usersListContainer = document.getElementById("users-lists-container");
 
   userListBtn.addEventListener("click", function() {
 	
@@ -22,9 +23,8 @@ var usersListContainer = document.getElementById("users-lists-container");
       console.log("Connection error");
     };	
     ourRequest.send();
-  });	
-
-    function createHTML( data ) {
+  });
+  function createHTML( data ) {
   	console.log("Genera tabla")
   	var ourHTMLString = '';
   	for ( i=0; i<data.length; i++ ){
@@ -33,3 +33,4 @@ var usersListContainer = document.getElementById("users-lists-container");
   	console.log(ourHTMLString);
   	usersListContainer.innerHTML = ourHTMLString;
   }
+}	
