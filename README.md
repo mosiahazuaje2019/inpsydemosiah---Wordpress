@@ -1,2 +1,2 @@
 # inpsydemosiah
-workhome pluggin for new job on inpsyde
+Este plugin sencillo permite cargar un listado de usuarios desde un endpoint.
